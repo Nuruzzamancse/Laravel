@@ -15,6 +15,8 @@ Route::get('/', function () {
     return view('welcome'); //welcome.blade.php
 });
 
+Route::get('about','PagesController@about');
+
 Route::get('about',function(){
 
     $bitfumes = [];
