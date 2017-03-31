@@ -16,6 +16,10 @@ Route::get('/', function () {
 });
 
 Route::get('about','PagesController@about');
+Route::resource('songs','SongsController');
+
+
+
 
 Route::get('about',function(){
 
